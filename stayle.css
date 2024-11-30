@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Mono+One&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Oswald:wght@200..700&family=Rubik+Mono+One&family=Sixtyfour&display=swap');
+html, body{
+    height: 100%;
+    margin: 20px;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-image: url('./fondo-onpice1.jpg'); 
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+header h1{
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgb(255, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Espaciado entre líneas */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    max-width: 800px /* ancho maximo del parrafo*/
+}
+.fecha-hora{
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    color: #ff4800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Espaciado entre líneas */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    max-width: 500px /* ancho maximo del parrafo*/
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.extra{
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+    color:  rgb(135, 221, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Espaciado entre líneas */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    max-width: 500px /* ancho maximo del parrafo*/
+}
+#regalos{
+    background-image: url(./one-pice-mapa.jpg);
+    border-radius: 10%;
+    margin-top: 20px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(10, 10, 10);
+    line-height: 1; /* Espaciado entre líneas */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    max-width: 500px; /* ancho maximo del parrafo*/
+    display: flex;
+    justify-content: flex-start;
+}
+footer{
+    align-items: flex-end;
+    background-color: rgb(0, 153, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 20px;
+}
